@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
         className={`${anton.className} antialiased`}
       >
-        <div className="grid grid-rows-4 grid-col-4 gap-4 border-4 border-black ">
+        <div className="grid place-content-center place-items-center w-full h-screen">
             <Cards />
         </div>
       </body>

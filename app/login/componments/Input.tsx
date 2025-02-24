@@ -4,6 +4,7 @@ function InputField(props: any) {
             type={props.type}
             id={props.id}
             name={props.name}
+            className="border rounded-md text-center"
              />
 }
 
