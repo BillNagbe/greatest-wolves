@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat, Playfair_Display, Anton, Open_Sans, Lato, Roboto } from "next/font/google";
+import {  Playfair_Display, Anton,  } from "next/font/google";
 import Cards from "./page";
 import "./globals.css";
 
@@ -24,7 +24,7 @@ export default function RootLayout({
         className={`${anton.className} antialiased`}
       >
         <div className="grid grid-rows-4 grid-col-4 gap-4 border-4 border-black ">
-            
+            <Cards />
         </div>
       </body>
     </html>
